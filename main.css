@@ -112,3 +112,55 @@
   .today {
     background-color: #167e56;
   }
+
+
+  /* Responsive */
+@media  (max-width:450px) {
+  body {
+    /* background-color: black; */
+  }
+  .calendar{
+    width: auto;
+    height: -webkit-fill-available;
+  }
+    .month {
+      width: 90%;
+      height: 9rem;
+      margin-left: 5%;
+    }
+    .weekdays {
+      width: 90%;
+      height: 9rem;
+      margin-left: 5%;
+    }
+    .days {
+      width: 90%;
+      height: 9rem;
+      margin-left: 5%;
+    }
+}
+
+@media (max-width:380px) {
+.container{
+  margin-top: 10%;
+}
+.calendar{
+  width: auto;
+  height: 100%;
+}
+.month {
+  width: 76%;
+  height: 9rem;
+  margin-left: 12%;
+}
+.weekdays {
+  width: 76%;
+  height: 9rem;
+  margin-left: 12%;
+}
+.days {
+  width: 76%;
+  height: 9rem;
+  margin-left: 12%;
+}
+}
